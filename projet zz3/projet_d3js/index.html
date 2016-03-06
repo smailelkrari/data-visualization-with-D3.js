@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html;charset=utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="styles.css"/>
+	</head>
+	<body >
+		<header>
+			<br/>
+			<p>Votre Tableau de Bord Performance</p>
+		</header>
+		<center>
+			<div id="chart">
+			</div>
+			<div id="chart2">
+			</div>
+			<div id="graph">
+			</div>
+		</center>
+		<div class="modal fade" id="000000" role="dialog" >
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" >&times;</button>
+						<h4 class="modal-title" id="title_rect"></h4>
+					</div>
+					<div class="modal-body" id="chart_2">
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-warning" data-dismiss="modal" >Fermer</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script src="d3.min.js"></script>
+		<script src="d3.js"></script>
+		<script language="javascript" type="text/javascript" ></script>
+		<script type="text/javascript" src="d3_function.js"></script>
+	</body>
+</html>
